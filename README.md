@@ -1,6 +1,6 @@
 # Cross-Resource Conformal Calibration Audit for Fetal Ultrasound Plane Classification
 
-Code accompanying the paper *"Hidden Behind the Average: Class- and Country-Conditional Conformal Calibration Reveals Coverage Failures Masked by Marginal Guarantees in Cross-Resource Fetal Ultrasound Plane Classification."*
+Code accompanying the paper _"Hidden Behind the Average: Class and Country Conditional Conformal Calibration Reveals Coverage Failures in Cross Resource Fetal Ultrasound Plane Classification"_
 
 This repository contains the full pipeline used to train a fetal ultrasound standard-plane classifier on a high-resource clinical dataset (Spain) and audit its reliability, using split conformal prediction, on a five-country low-resource cohort (Algeria, Egypt, Ghana, Malawi, Uganda), with no target-country labels used at any stage of training.
 
@@ -17,8 +17,8 @@ This repository contains the full pipeline used to train a fetal ultrasound stan
 
 Both datasets are public and must be downloaded separately; they are not included in this repository.
 
-- **Source domain (Spain):** Burgos-Artizzu et al., *Evaluation of deep convolutional neural networks for automatic classification of common maternal fetal ultrasound planes*, Scientific Reports, 2020. Available at [Zenodo record 3904280](https://zenodo.org/records/3904280).
-- **Target domain (five countries):** Sendra-Balcells et al., *Generalisability of fetal ultrasound deep learning models to low-resource imaging settings in five African countries*, Scientific Reports, 2023. Available at [Zenodo record 7540448](https://zenodo.org/records/7540448).
+- **Source domain (Spain):** Burgos-Artizzu et al., _Evaluation of deep convolutional neural networks for automatic classification of common maternal fetal ultrasound planes_, Scientific Reports, 2020. Available at [Zenodo record 3904280](https://zenodo.org/records/3904280).
+- **Target domain (five countries):** Sendra-Balcells et al., _Generalisability of fetal ultrasound deep learning models to low-resource imaging settings in five African countries_, Scientific Reports, 2023. Available at [Zenodo record 7540448](https://zenodo.org/records/7540448).
 
 Please cite both original papers if you use these datasets.
 
